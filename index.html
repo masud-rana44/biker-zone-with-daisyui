@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="cupcake">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -28,8 +28,8 @@
       }
     </style>
   </head>
-  <body class="font-poppins w-full min-h-screen px-12 bg-slate-500">
-    <header class="mb-6">
+  <body class="font-poppins w-full min-h-screen px-12">
+    <header>
       <div class="navbar">
         <div class="navbar-start flex-1">
           <div class="dropdown">
@@ -85,7 +85,7 @@
 
     <main>
       <!-- slider -->
-      <section>
+      <section class="h-[calc(100vh-68px)]">
         <div class="carousel w-full">
           <div id="slide1" class="carousel-item relative w-full">
             <div
@@ -293,7 +293,7 @@
               <img
                 src="/images/others/user-1.png"
                 alt="Shoes"
-                class="rounded-xl"
+                class="rounded-xl w-36 h-36"
               />
             </figure>
             <div class="card-body items-center text-center">
@@ -339,7 +339,7 @@
               <img
                 src="/images/others/user-2.png"
                 alt="Shoes"
-                class="rounded-xl"
+                class="rounded-xl w-36 h-36"
               />
             </figure>
             <div class="card-body items-center text-center">
@@ -385,7 +385,7 @@
               <img
                 src="/images/others/user-3.png"
                 alt="Shoes"
-                class="rounded-xl"
+                class="rounded-xl w-36 h-36"
               />
             </figure>
             <div class="card-body items-center text-center">
@@ -427,6 +427,78 @@
           </div>
         </div>
       </section>
+
+      <section class="mt-32">
+        <h2 class="text-[#0A0826] text-center text-4xl font-semibold mb-12">
+          Frequently Asked Questions
+        </h2>
+        <div class="flex flex-col lg:flex-row gap-8 items-center">
+          <img class="flex-3" src="./images/others/faq.png" alt="" />
+          <div class="space-y-4 flex-5">
+            <div class="collapse collapse-arrow bg-base-200">
+              <input type="radio" name="my-accordion-2" checked="checked" />
+              <div class="collapse-title text-xl font-medium">
+                What are the most important things I should know about riding a
+                bike?
+              </div>
+              <div class="collapse-content">
+                <p>hello</p>
+              </div>
+            </div>
+            <div class="collapse collapse-arrow bg-base-200">
+              <input type="radio" name="my-accordion-2" />
+              <div class="collapse-title text-xl font-medium">
+                How can I tell if my helmet is old and I need a new one?
+              </div>
+              <div class="collapse-content">
+                <p>hello</p>
+              </div>
+            </div>
+            <div class="collapse collapse-arrow bg-base-200">
+              <input type="radio" name="my-accordion-2" />
+              <div class="collapse-title text-xl font-medium">
+                My bike has been in storage is it safe to ride?
+              </div>
+              <div class="collapse-content">
+                <p>hello</p>
+              </div>
+            </div>
+
+            <div class="collapse collapse-arrow bg-base-200">
+              <input type="radio" name="my-accordion-2" />
+              <div class="collapse-title text-xl font-medium">
+                What rules should I follow when riding my bike?
+              </div>
+              <div class="collapse-content">
+                <p>hello</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
+
+    <footer class="footer p-10 bg-neutral text-neutral-content mt-36">
+      <div>
+        <span class="footer-title">Services</span>
+        <a class="link link-hover">Branding</a>
+        <a class="link link-hover">Design</a>
+        <a class="link link-hover">Marketing</a>
+        <a class="link link-hover">Advertisement</a>
+      </div>
+      <div>
+        <span class="footer-title">Company</span>
+        <a class="link link-hover">About us</a>
+        <a class="link link-hover">Contact</a>
+        <a class="link link-hover">Jobs</a>
+        <a class="link link-hover">Press kit</a>
+      </div>
+      <div>
+        <span class="footer-title">Legal</span>
+        <a class="link link-hover">Terms of use</a>
+        <a class="link link-hover">Privacy policy</a>
+        <a class="link link-hover">Cookie policy</a>
+      </div>
+    </footer>
   </body>
 </html>
